@@ -1,0 +1,125 @@
+*{
+    margin: 0%;
+    padding: 0px;
+    scroll-behavior: smooth;
+    scroll-padding-top: 1rem;
+  }
+body{
+    background-color: #1F2A54;
+    padding-left: 5%;
+}
+.white{
+    background-color: #ffff;
+    width: 750px;
+    padding-left: 18rem;
+    margin-top: 10%;
+    margin-bottom: 12rem;
+    margin-right: 12rem;
+    margin-left: 15rem;
+    height: 610px;
+    border-radius: 35px;
+    position: relative;
+    border: 3px solid black;
+}
+.orange{
+    background-color: #EA9C00;
+    float: left;
+    top: 14%;
+    left: 25%;
+    position: absolute;
+    width: 5%;
+    height: 74%;
+    border-radius: 30px;
+    border: 3px solid black;
+}
+.icon{
+    height: 45px;
+    width: 45px;
+    padding-left: 24px;
+    padding-top: 55px;
+}
+h3{
+    display: inline-flex;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #2d2e31;
+    font-weight: xx-large;
+    font-size: xx-large;
+}
+.input{
+    border: 0;
+    border-bottom: 2px solid #EA9C00;
+    height: 20%;
+    outline: none;
+}
+input{
+    display: inline-block;
+    padding-top: 3%;
+    top: 10%;
+    justify-content: space-between;
+    margin-left: 10%;
+}
+.a1 {
+    display: flex;
+    align-items: flex-start;
+}
+.a2 {
+    display: flex;
+    align-items: flex-start;
+}
+.a3 {
+    display: flex;
+    align-items: flex-start;
+}
+.a4 {
+    display: flex;
+    align-items: flex-start;
+    
+}
+.a5 {
+    display: flex;
+    align-items: flex-start;
+}
+button{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 110%;
+    font-weight: lighter;
+    background-color: #EA9C00;
+    border: 0;
+    color: #ffff;
+    height: 11%;
+    width: 11%;
+    cursor: pointer;
+    border: 1px solid #000000;
+    float: right;
+    margin-right: 60%;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+    list-style: none;
+    margin: 3%;
+    padding-top: 4%;
+}
+#minouch{
+    padding-left: 3%;
+    box-sizing: border-box;
+}
+form{
+    padding-left: 8%;
+}
+/* Media Query for smaller screens */
+@media (max-width: 768px) {
+    .white {
+        margin: 20% auto;
+        padding: 1rem;
+    }
+    .orange {
+        width: 30%;
+    }
+    ul {
+        flex-direction: column;
+        text-align: center;
+    }
+}
